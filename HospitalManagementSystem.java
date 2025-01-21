@@ -257,9 +257,11 @@ public class HospitalManagementSystem {
 		scanner.nextLine();
 
 		switch (choice) {
-		case 1 -> addPatientHistory();
-		case 2 -> viewPatientHistory();
-		default -> System.out.println("Invalid choice.");
+		case 1 : addPatientHistory();
+        break;
+		case 2 : viewPatientHistory();
+        break;
+		default : System.out.println("Invalid choice.");
 		}
 	}
 
